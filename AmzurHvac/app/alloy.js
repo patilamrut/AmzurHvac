@@ -21,7 +21,7 @@ var contents = f.read();
 var jsonArrayObj = JSON.parse(contents.text);
 Alloy.Globals.HVACS = jsonArrayObj.HVACS;
 Alloy.Globals.HVACNames = _.keys(_.countBy(Alloy.Globals.HVACS, function(data) { return data.category; }));
-
+Alloy.Globals.HVACUnitNames = _.keys(_.countBy(Alloy.Globals.HVACS, function(data) { return data.name; }));
 
 (function(){
 var ACS = require('ti.cloud'),

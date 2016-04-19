@@ -1,14 +1,76 @@
 
-".container" : {
-  
-}
-".dayRow" : {
-	width : Titanium.UI.FILL,
-	height : 40
+".container": {}
+".dayRow": {
+	width: Titanium.UI.FILL,
+	height: 40,
+	top : 10,
+	left : "5%"
 },
 
-".dayView" : {
-	width : "10%",
-	left : 10,
-	borderColor : "black"
+".dayView": {
+	width: "10%",
+	left: 10,
+	borderColor: "black",
+	backgroundColor: "white"
+},
+
+".dayLabel": {
+	touchEnabled: false
+},
+
+"#listView[platform=ios]": {
+	separatorStyle: Titanium.UI.iPhone.ListViewSeparatorStyle.NONE
+},
+
+"#listView": {
+	top : 10,
+	height : "80%"
+},
+
+"#firstTemplate": {
+	height: 80
+},
+
+"#parentView": {
+	height: "100%",
+	width: Titanium.UI.FILL
+},
+
+"#firstView": {
+	height: "70%",
+	layout: "horizontal",
+	backgroundColor: "gray"
+},
+"#secondView": {
+	backgroundColor: "lightGray",
+	height: "30%"
+},
+
+"#listLabel": {
+	color: "white",
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	width : Ti.UI.FILL,
+	height : Ti.UI.FILL
+},
+
+".checkMark": {
+	height: 20,
+	width: 20,
+	top : "30%",
+	left : 15
+},
+
+".buttonView" : {
+	height : Ti.UI.SIZE,
+	width : Ti.UI.FILL,
+	top : 10,
+	layout : "horizontal"
+},
+
+".sButton" : {
+	backgroundColor : "white",
+	borderColor : "black",
+	height : 40,
+	left : "15%",
+	width : 100
 }

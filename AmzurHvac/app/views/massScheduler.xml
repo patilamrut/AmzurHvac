@@ -2,27 +2,45 @@
 	<Window class="container" id="window" layout="vertical">
 		<ActionBar id="actionbar"/>
 		<View class="dayRow" layout="horizontal">
-			<View class="dayView">
-				<Label text="M"></Label>
+			<View class="dayView" onClick="dayClicked" id="monday">
+				<Label class="dayLabel" text="M"></Label>
 			</View>
-			<View class="dayView">
-				<Label text="T"></Label>
+			<View class="dayView" onClick="dayClicked" id="tuesday">
+				<Label class="dayLabel" text="T"></Label>
 			</View>
-			<View class="dayView">
-				<Label text="W"></Label>
+			<View class="dayView" onClick="dayClicked" id="wednesday">
+				<Label class="dayLabel" text="W"></Label>
 			</View>
-			<View class="dayView">
-				<Label text="T"></Label>
+			<View class="dayView" onClick="dayClicked" id="thursday">
+				<Label class="dayLabel" text="T"></Label>
 			</View>
-			<View class="dayView">
-				<Label text="F"></Label>
+			<View class="dayView" onClick="dayClicked" id="friday">
+				<Label class="dayLabel" text="F"></Label>
 			</View>
-			<View class="dayView">
-				<Label text="S"></Label>
+			<View class="dayView" onClick="dayClicked" id="saturday">
+				<Label class="dayLabel" text="S"></Label>
 			</View>
-			<View class="dayView">
-				<Label text="S"></Label>
+			<View class="dayView" onClick="dayClicked" id="sunday">
+				<Label class="dayLabel" text="S"></Label>
 			</View>
 		</View>
+		<ListView id="listView" onItemclick="clickItems" defaultItemTemplate="firstTemplate">
+			<Templates>
+				<ItemTemplate id="firstTemplate" layout="vertical" selectedBackgroundColor="lightGray" name="firstTemplate">
+					<View id="parentView" layout="vertical">
+						<View id="firstView">
+							<ImageView id="checkMark" bindId="checkMark" image="/refillUnchecked.png" class="checkMark"></ImageView>
+							<Label id="listLabel" bindId = "listLabel"></Label>
+						</View>
+						<View id="secondView"></View>
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="defaultSection"></ListSection>
+		</ListView>
+		<View class="buttonView">
+			<Button title="Reset" class="sButton"></Button>
+			<Button title="Next" class="sButton"></Button>
+		</View>	
 	</Window>
 </Alloy>
