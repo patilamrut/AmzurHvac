@@ -1,0 +1,23 @@
+
+".container" : {
+  
+},
+
+".rowView" : {
+	height : "30%",
+	width : Titanium.UI.FILL,
+	layout : "horizontal"
+}
+
+
+".lLabel" : {
+	width : "30%",
+	height : Ti.UI.FILL,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+".leftLabel" : {
+	width : "30%",
+	height : Ti.UI.FILL,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER
+}

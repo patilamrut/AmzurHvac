@@ -1,0 +1,6 @@
+<Alloy>
+	<Require src="home" id="homeForm" platform="android"/>
+    <NavigationWindow id="homeNav" platform="ios">
+        <Require src="home" id="homeForm"/>
+    </NavigationWindow>
+</Alloy>

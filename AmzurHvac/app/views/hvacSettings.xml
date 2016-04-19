@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container" id="window" layout="vertical">
+		<ActionBar id="actionbar"/>
+		<View class="rowView" id="firstRow">
+			<Label class="lLabel" text="Temperature"></Label>
+			<Label class="leftLabel" id="firstLabel"></Label>
+		</View>
+		<View class="rowView" id="secondRow">
+			<Label class="lLabel" text="Speed"></Label>
+			<Label class="leftLabel" id="secondLabel"></Label>
+		</View>
+		<View class="rowView" id="thirdRow">
+			<Label class="lLabel" text=""></Label>
+			<Label class="leftLabel" id="thirdLabel"></Label>
+		</View>
+	</Window>
+</Alloy>

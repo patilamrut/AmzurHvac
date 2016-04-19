@@ -1,0 +1,65 @@
+{
+	"HVACS": [
+		{
+			"name": "HVAC1",
+			"category": "Zone1"
+		}, {
+			"name": "HVAC2",
+			"category": "Zone1"
+		}, {
+			"name": "HVAC3",
+			"category": "Zone1"
+		}, {
+			"name": "HVAC4",
+			"category": "Zone1"
+		}, {
+			"name": "HVAC5",
+			"category": "Zone2"
+		}, {
+			"name": "HVAC6",
+			"category": "Zone2"
+		}, {
+			"name": "HVAC7",
+			"category": "Zone2"
+		}, {
+			"name": "HVAC8",
+			"category": "Zone2"
+		}, {
+			"name": "HVAC9",
+			"category": "Zone3"
+		}, {
+			"name": "HVAC10",
+			"category": "Zone3"
+		}, {
+			"name": "HVAC11",
+			"category": "Zone3"
+		}, {
+			"name": "HVAC12",
+			"category": "Zone3"
+		}, {
+			"name": "HVAC13",
+			"category": "Zone4"
+		}, {
+			"name": "HVAC14",
+			"category": "Zone4"
+		}, {
+			"name": "HVAC15",
+			"category": "Zone4"
+		}, {
+			"name": "HVAC16",
+			"category": "Zone4"
+		}, {
+			"name": "HVAC17",
+			"category": "Zone5"
+		}, {
+			"name": "HVAC18",
+			"category": "Zone5"
+		}, {
+			"name": "HVAC19",
+			"category": "Zone5"
+		}, {
+			"name": "HVAC20",
+			"category": "Zone5"
+		}
+	]
+}

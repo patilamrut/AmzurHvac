@@ -1,0 +1,14 @@
+
+".container" : {
+  
+}
+".dayRow" : {
+	width : Titanium.UI.FILL,
+	height : 40
+},
+
+".dayView" : {
+	width : "10%",
+	left : 10,
+	borderColor : "black"
+}

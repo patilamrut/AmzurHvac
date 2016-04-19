@@ -1,0 +1,35 @@
+
+".container" : {
+	backgroundColor : "lightGray"  
+},
+
+"#listView[platform=ios]" : {
+	separatorStyle : Titanium.UI.iPhone.ListViewSeparatorStyle.NONE
+},
+
+"#listView" : {
+	
+},
+
+"#firstTemplate" : {
+	height : 80
+},
+
+"#parentView" : {
+	height : "100%",
+	width : Titanium.UI.FILL
+},
+
+"#firstView" : {
+	height : "70%",
+	backgroundColor : "gray"
+},
+"#secondView" : {
+	backgroundColor : "lightGray",
+	height : "30%"
+},
+
+"#listLabel" : {
+	color : "white"
+}
+	

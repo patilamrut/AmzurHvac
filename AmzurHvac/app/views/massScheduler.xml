@@ -1,0 +1,28 @@
+<Alloy>
+	<Window class="container" id="window" layout="vertical">
+		<ActionBar id="actionbar"/>
+		<View class="dayRow" layout="horizontal">
+			<View class="dayView">
+				<Label text="M"></Label>
+			</View>
+			<View class="dayView">
+				<Label text="T"></Label>
+			</View>
+			<View class="dayView">
+				<Label text="W"></Label>
+			</View>
+			<View class="dayView">
+				<Label text="T"></Label>
+			</View>
+			<View class="dayView">
+				<Label text="F"></Label>
+			</View>
+			<View class="dayView">
+				<Label text="S"></Label>
+			</View>
+			<View class="dayView">
+				<Label text="S"></Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

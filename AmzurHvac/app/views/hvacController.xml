@@ -1,0 +1,27 @@
+<Alloy>
+	<Window class="container" id="window" layout="vertical">
+		<ActionBar id="actionbar"/>
+				<ListView id="listView" onItemclick="clickItems" defaultItemTemplate="firstTemplate">
+			<Templates>
+				<ItemTemplate id="firstTemplate" layout="vertical" selectedBackgroundColor="lightGray" name="firstTemplate">
+					<View id="parentView" layout="vertical">
+						<View id="firstView">
+						<Label id="listLabel" bindId = "listLabel"></Label>
+						</View>
+						<View id="secondView">
+							
+						</View>
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection id="defaultSection">
+				<!--<ListItem listLabel:text="First Section"></ListItem>
+				<ListItem listLabel:text="Second Section"></ListItem>
+				<ListItem listLabel:text="Third Section"></ListItem>
+				<ListItem listLabel:text="Fourth Section"></ListItem>
+				<ListItem listLabel:text="Calendar"></ListItem>-->
+			</ListSection>
+		</ListView>
+
+	</Window>
+</Alloy>
