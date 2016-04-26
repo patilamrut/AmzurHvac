@@ -24,7 +24,9 @@ function clickItems(e) {
     var windoName = filteredList[e.itemIndex].name;
 
     var windowController = Alloy.createController("hvacSettings", {
-    	title : windoName
+    	title : windoName,
+    	singleSelect : true,
+    	hvacs : [windoName]
     }).getView();
     if (OS_IOS) {
         Alloy.Globals.navgroup.openWindow(windowController, {

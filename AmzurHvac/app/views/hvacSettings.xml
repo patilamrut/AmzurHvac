@@ -13,5 +13,9 @@
 			<Label class="lLabel" text=""></Label>
 			<Label class="leftLabel" id="thirdLabel"></Label>
 		</View>
+		<View class="buttonView">
+			<Button title="Save" onClick="submitForm" class="sButton"></Button>
+		</View>	
+		
 	</Window>
 </Alloy>

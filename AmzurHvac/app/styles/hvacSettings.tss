@@ -4,7 +4,7 @@
 },
 
 ".rowView" : {
-	height : "30%",
+	height : "25%",
 	width : Titanium.UI.FILL,
 	layout : "horizontal"
 }
@@ -20,4 +20,18 @@
 	width : "30%",
 	height : Ti.UI.FILL,
 	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+
+".buttonView" : {
+	height : Ti.UI.SIZE,
+	width : Ti.UI.FILL,
+	top : 10
+},
+
+".sButton" : {
+	backgroundColor : "white",
+	borderColor : "black",
+	height : 40,
+	width : 100
 }
+

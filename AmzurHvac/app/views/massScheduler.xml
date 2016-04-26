@@ -39,8 +39,8 @@
 			<ListSection id="defaultSection"></ListSection>
 		</ListView>
 		<View class="buttonView">
-			<Button title="Reset" class="sButton"></Button>
-			<Button title="Next" class="sButton"></Button>
+			<Button title="Reset" onClick="resetForm" class="sButton"></Button>
+			<Button title="Next" onClick="submitForm" class="sButton"></Button>
 		</View>	
 	</Window>
 </Alloy>
