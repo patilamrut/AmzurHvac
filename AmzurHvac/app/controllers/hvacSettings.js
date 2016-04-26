@@ -64,8 +64,9 @@ $.secondRow.add(sliderView2);
 
 function submitForm(e) {
     if (args.singleSelect) {
-        console.log("coming from single window");
+        console.log("coming from single window"); //args.hvacs has selected hvacs names.
+        
     } else {
-        console.log("coming from calendar");
+        console.log("coming from calendar");//args.hvacs has selected hvacs names.
     }
 }
