@@ -20,13 +20,15 @@ for (var i = 0; i < filteredList.length; i++) {
 $.defaultSection.setItems(listItems);
 
 function clickItems(e) {
-    $.listView.deselectItem(0, e.itemIndex);
+    if (OS_IOS) {
+        $.listView.deselectItem(0, e.itemIndex);
+    }
     var windoName = filteredList[e.itemIndex].name;
 
     var windowController = Alloy.createController("hvacSettings", {
-    	title : windoName,
-    	singleSelect : true,
-    	hvacs : [windoName]
+        title : windoName,
+        singleSelect : true,
+        hvacs : [windoName]
     }).getView();
     if (OS_IOS) {
         Alloy.Globals.navgroup.openWindow(windowController, {

@@ -61,7 +61,9 @@ function changeValue(id) {
 }
 
 function clickItems(e) {
-    $.listView.deselectItem(0, e.itemIndex);
+    if (OS_IOS) {
+        $.listView.deselectItem(0, e.itemIndex);
+    }
     var i = e.itemIndex;
     checkedValue[Alloy.Globals.HVACUnitNames[i]] = !checkedValue[Alloy.Globals.HVACUnitNames[i]];
     var clickedItem = $.listView.getSections()[0].getItemAt(i);
