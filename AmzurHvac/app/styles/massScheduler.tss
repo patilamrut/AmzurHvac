@@ -15,7 +15,8 @@
 },
 
 ".dayLabel": {
-	touchEnabled: false
+	touchEnabled: false,
+	color : "black"
 },
 
 "#listView[platform=ios]": {
@@ -47,7 +48,7 @@
 },
 
 "#listLabel": {
-	color: "white",
+	color: "black",
 	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
 	width : Ti.UI.FILL,
 	height : Ti.UI.FILL
@@ -70,6 +71,7 @@
 ".sButton" : {
 	backgroundColor : "white",
 	borderColor : "black",
+	color : "black",
 	height : 40,
 	left : "15%",
 	width : 100
