@@ -26,14 +26,14 @@
 		</View>
 		<ListView id="listView" onItemclick="clickItems" defaultItemTemplate="firstTemplate">
 			<Templates>
-				<ItemTemplate id="firstTemplate" layout="vertical" selectedBackgroundColor="lightGray" name="firstTemplate">
-					<View id="parentView" layout="vertical">
+				<ItemTemplate id="firstTemplate" layout="vertical" name="firstTemplate">
+					
 						<View id="firstView">
 							<ImageView id="checkMark" bindId="checkMark" image="/refillUnchecked.png" class="checkMark"></ImageView>
 							<Label id="listLabel" bindId = "listLabel"></Label>
 						</View>
-						<View id="secondView"></View>
-					</View>
+						<!--<View id="secondView"></View>-->
+				
 				</ItemTemplate>
 			</Templates>
 			<ListSection id="defaultSection"></ListSection>

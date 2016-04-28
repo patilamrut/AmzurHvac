@@ -33,13 +33,13 @@
 },
 
 "#parentView": {
-	height: "100%",
+	height: 80,
 	width: Titanium.UI.FILL
 },
 
 "#firstView": {
-	height: "70%",
 	layout: "horizontal",
+	width : Titanium.UI.FILL,
 	backgroundColor: "gray"
 },
 "#secondView": {
@@ -50,7 +50,7 @@
 "#listLabel": {
 	color: "black",
 	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
-	width : Ti.UI.FILL,
+	width : "80%",
 	height : Ti.UI.FILL
 },
 

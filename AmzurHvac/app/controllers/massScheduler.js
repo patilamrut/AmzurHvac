@@ -67,7 +67,7 @@ function clickItems(e) {
     }
     var i = e.itemIndex;
     checkedValue[Alloy.Globals.HVACUnitNames[i]] = !checkedValue[Alloy.Globals.HVACUnitNames[i]];
-    var clickedItem = listItems[i];//$.listView.getSections()[0].getItemAt(i);
+    var clickedItem =$.listView.sections[0].getItemAt(i);
     console.log(JSON.stringify(clickedItem));
     if (checkedValue[Alloy.Globals.HVACUnitNames[i]]) {
         clickedItem.checkMark.image = "/refillChecked.png";
@@ -76,8 +76,8 @@ function clickItems(e) {
     }
     listItems[i]=clickedItem;
     var section = $.listView.sections[e.sectionIndex];
-    //section.updateItemAt(i, clickedItem);
-     e.section.updateItemAt(i,clickedItem);
+    $.listView.sections[0].updateItemAt(i, clickedItem);
+    // e.section.updateItemAt(i,clickedItem);
     console.log(JSON.stringify(section.getItems()));
     // $.defaultSection.setItems(listItems);
     // $.defaultSection.setItems(listItems);
